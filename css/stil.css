@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-brand {
-    font-size: 1.85rem;
+    font-size: 1.6rem;
 }
 
 .hero-section {
@@ -28,7 +28,6 @@ body {
 .hero-badges .badge-item {
     background: #ffffff;
     color: var(--text);
-    border: 1px solid var(--border);
     border-radius: 999px;
     padding: 0.45rem 0.85rem;
     font-weight: 600;
@@ -47,7 +46,7 @@ body {
 .contact-card,
 .contact-info-card {
     border: 1px solid var(--border);
-    border-radius: 0.95rem;
+    border-radius: 20px;
     box-shadow: 0 10px 24px rgba(18, 64, 149, 0.08);
 }
 
@@ -56,11 +55,27 @@ body {
 .todo-card .card-header {
     background: var(--primary);
     color: #ffffff;
-    font-size: 1.65rem;
-    font-weight: 700;
+    font-size: 1.50rem;
+    font-weight: 500;
     border-bottom: 0;
     border-top-left-radius: 0.95rem;
     border-top-right-radius: 0.95rem;
+}
+
+.last-row td{
+    border-bottom: 0px;
+}
+
+.last-row-left {
+    border-bottom-left-radius: 20px;
+}
+
+.last-row-right {
+    border-bottom-right-radius: 20px;
+}
+
+.list-group-item {
+    border: 0;
 }
 
 .profile-photo {
@@ -74,7 +89,7 @@ body {
 
 .link-list a {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--primary);
 }
 
@@ -84,7 +99,7 @@ body {
 }
 
 .task-item .task-text {
-    font-size: 1.35rem;
+    font-size: 18px;
     font-weight: 600;
 }
 

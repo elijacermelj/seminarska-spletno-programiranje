@@ -22,8 +22,8 @@ $currentPage = 'o-meni';
                     <img src="img/profil.svg" alt="Profilna slika" class="profile-photo img-fluid">
                 </div>
                 <div class="col-md-8">
-                    <h2 class="h1 mb-1">Janez Novak</h2>
-                    <p class="text-muted mb-4">Studentska stevilka: 63210001</p>
+                    <h2 class="h1 mb-1">Elija Čermelj</h2>
+                    <p class="text-muted mb-4">Studentska stevilka: 35250059</p>
                     <p>Sem student racunalnistva in informatike, ki ga zanimajo sodobne spletne tehnologije in razvoj uporabnih digitalnih resitev.</p>
                     <p>Pri delu me vodi jasna komunikacija, dobra organizacija ter osredotocenost na kakovostno uporabnisko izkusnjo.</p>
                     <p>Najvec casa namenim razvoju spletnih aplikacij, kjer zdruzujem znanje iz HTML, CSS, JavaScript in PHP okolja.</p>
@@ -84,7 +84,7 @@ $currentPage = 'o-meni';
                     <tr><td>Podatkovne baze</td><td>2</td><td>7</td><td>8</td><td>Opravljeno</td></tr>
                     <tr><td>Algoritmi</td><td>2</td><td>8</td><td>9</td><td>Opravljeno</td></tr>
                     <tr><td>Racunalniske mreze</td><td>3</td><td>6</td><td>8</td><td>V teku</td></tr>
-                    <tr><td>Umetna inteligenca</td><td>3</td><td>7</td><td>9</td><td>V teku</td></tr>
+                    <tr class="last-row"><td class="last-row-left">Umetna inteligenca</td><td>3</td><td>7</td><td>9</td><td class="last-row-right">V teku</td></tr>
                     </tbody>
                 </table>
             </div>

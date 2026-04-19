@@ -18,7 +18,7 @@ $currentPage = 'index';
         <div class="container">
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-4 fw-bold mb-3">Dobrodosli na nasi strani</h1>
+                    <h1 class="display-4 fw-bold mb-3">Dobrodosli na moji strani</h1>
                     <p class="lead text-secondary mb-4">Sodobne digitalne resitve za vase potrebe. Oglejte si kratko predstavitev storitev in delovnega procesa.</p>
                     <div class="d-flex flex-wrap gap-2 mb-4">
                         <a class="btn btn-primary btn-lg" href="kontakt.php">Stopite v stik</a>
@@ -28,6 +28,7 @@ $currentPage = 'index';
                         <span class="badge-item">Hitro</span>
                         <span class="badge-item">Timsko</span>
                         <span class="badge-item">Ucinkovito</span>
+                        <span class="badge-item">Zanesljivo</span>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -89,7 +90,7 @@ $currentPage = 'index';
                                 <tr><td>Integracija API</td><td>Povezava sistemov</td><td>8 dni</td><td>650 EUR</td><td>Na voljo</td></tr>
                                 <tr><td>Analitika</td><td>Merjenje obiskov</td><td>3 dni</td><td>180 EUR</td><td>Na voljo</td></tr>
                                 <tr><td>Testiranje</td><td>Funkcionalni test</td><td>4 dni</td><td>220 EUR</td><td>Na voljo</td></tr>
-                                <tr><td>Posvet</td><td>Tehnicni nacrt</td><td>1 dan</td><td>90 EUR</td><td>Na voljo</td></tr>
+                                <tr class="last-row"><td class="last-row-left">Posvet</td><td>Tehnicni nacrt</td><td>1 dan</td><td>90 EUR</td><td class="last-row-right">Na voljo</td></tr>
                                 </tbody>
                             </table>
                         </div>
@@ -120,7 +121,7 @@ $currentPage = 'index';
                                 <tr><td>Nedelja</td><td>-</td><td>-</td><td>-</td><td>Zaprto</td></tr>
                                 <tr><td>Prazniki</td><td>-</td><td>-</td><td>-</td><td>Zaprto</td></tr>
                                 <tr><td>Online podpora</td><td>07:00</td><td>20:00</td><td>Chat</td><td>Vsak dan</td></tr>
-                                <tr><td>Nujni primeri</td><td>00:00</td><td>24:00</td><td>Dezurna ekipa</td><td>Telefonsko</td></tr>
+                                <tr class="last-row"><td class="last-row-left">Nujni primeri</td><td>00:00</td><td>24:00</td><td>Dezurna ekipa</td><td class="last-row-right">Telefonsko</td></tr>
                                 </tbody>
                             </table>
                         </div>
