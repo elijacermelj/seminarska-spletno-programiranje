@@ -1,4 +1,9 @@
 <?php
+if (PHP_SAPI !== 'cli' && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === __FILE__) {
+    header('Location: index.php');
+    exit;
+}
+
 $menuItems = [
     [
         'key' => 'index',

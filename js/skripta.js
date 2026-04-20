@@ -54,7 +54,7 @@
         const deleteButton = document.createElement('button');
         deleteButton.type = 'button';
         deleteButton.className = 'btn btn-outline-danger btn-sm task-delete';
-        deleteButton.textContent = 'Izbrisi';
+        deleteButton.textContent = 'Izbriši';
 
         wrapper.appendChild(checkbox);
         wrapper.appendChild(textEl);

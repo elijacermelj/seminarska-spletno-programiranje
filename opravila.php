@@ -31,21 +31,21 @@ $currentPage = 'opravila';
                         <div class="d-flex align-items-center gap-3">
                             <input class="form-check-input task-check mt-0" type="checkbox" aria-label="Oznaci nalogo kot dokoncano">
                             <span class="task-text flex-grow-1">Dokoncaj projekt za spletne tehnologije</span>
-                            <button type="button" class="btn btn-outline-danger btn-sm task-delete">Izbrisi</button>
+                            <button type="button" class="btn btn-outline-danger btn-sm task-delete">Izbriši</button>
                         </div>
                     </li>
                     <li class="list-group-item task-item task-completed" data-completed="true">
                         <div class="d-flex align-items-center gap-3">
                             <input class="form-check-input task-check mt-0" type="checkbox" checked aria-label="Oznaci nalogo kot dokoncano">
                             <span class="task-text flex-grow-1">Pripravi se na izpit iz algoritmov</span>
-                            <button type="button" class="btn btn-outline-danger btn-sm task-delete">Izbrisi</button>
+                            <button type="button" class="btn btn-outline-danger btn-sm task-delete">Izbriši</button>
                         </div>
                     </li>
                     <li class="list-group-item task-item" data-completed="false">
                         <div class="d-flex align-items-center gap-3">
                             <input class="form-check-input task-check mt-0" type="checkbox" aria-label="Oznaci nalogo kot dokoncano">
                             <span class="task-text flex-grow-1">Preberi dokumentacijo za React</span>
-                            <button type="button" class="btn btn-outline-danger btn-sm task-delete">Izbrisi</button>
+                            <button type="button" class="btn btn-outline-danger btn-sm task-delete">Izbriši</button>
                         </div>
                     </li>
                 </ul>
@@ -58,7 +58,7 @@ $currentPage = 'opravila';
                     </div>
                     <div class="col-6 stats-box">
                         <p class="count-number text-success mb-1" id="completedCount">0</p>
-                        <p class="mb-0 text-muted">Dokoncanih</p>
+                        <p class="mb-0 text-muted">Dokončanih</p>
                     </div>
                 </div>
             </div>
@@ -68,9 +68,9 @@ $currentPage = 'opravila';
             <h2 class="h4 mb-3">Navodila za uporabo</h2>
             <ul class="mb-0">
                 <li>Klikni gumb "Dodaj nalogo" za dodajanje nove naloge iz vnosnega polja.</li>
-                <li>Oznaci potrditveno polje za oznacevanje naloge kot dokoncane.</li>
-                <li>Pri odznacitvi dokoncane naloge te aplikacija opozori, da bo naloga ponovno aktivna.</li>
-                <li>Uporabi gumb "Izbrisi" za odstranitev naloge s seznama.</li>
+                <li>Označi potrditveno polje za označevanje naloge kot dokončane.</li>
+                <li>Pri odznačitvi dokončane naloge te aplikacija opozori, da bo naloga ponovno aktivna.</li>
+                <li>Uporabi gumb "Izbriši" za odstranitev naloge s seznama.</li>
             </ul>
         </aside>
     </section>

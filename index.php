@@ -18,8 +18,8 @@ $currentPage = 'index';
         <div class="container">
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-4 fw-bold mb-3">Dobrodosli na moji strani</h1>
-                    <p class="lead text-secondary mb-4">Sodobne digitalne resitve za vase potrebe. Oglejte si kratko predstavitev storitev in delovnega procesa.</p>
+                    <h1 class="display-4 fw-bold mb-3">Dobrodošli na moji strani</h1>
+                    <p class="lead text-secondary mb-4">Sodobne digitalne rešitve za vase potrebe. Oglejte si kratko predstavitev storitev in delovnega procesa.</p>
                     <div class="d-flex flex-wrap gap-2 mb-4">
                         <a class="btn btn-primary btn-lg" href="kontakt.php">Stopite v stik</a>
                         <a class="btn btn-outline-primary btn-lg" href="o-meni.php">Vec o meni</a>
@@ -40,13 +40,13 @@ $currentPage = 'index';
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/carousel-1.svg" class="d-block w-100 carousel-cover" alt="Predstavitvena slika 1">
+                                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" class="d-block w-100 carousel-cover" alt="Sodobna delovna postaja za razvoj spletnih strani">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/carousel-2.svg" class="d-block w-100 carousel-cover" alt="Predstavitvena slika 2">
+                                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" class="d-block w-100 carousel-cover" alt="Programiranje na prenosniku v moderni pisarni">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/carousel-3.svg" class="d-block w-100 carousel-cover" alt="Predstavitvena slika 3">
+                                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" class="d-block w-100 carousel-cover" alt="Skupinski poslovni sestanek in nacrtovanje projekta">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#glavniCarousel" data-bs-slide="prev">
@@ -65,10 +65,11 @@ $currentPage = 'index';
 
     <section class="pb-5">
         <div class="container">
+            <h2 class="visually-hidden">tabela 1</h2>
             <div class="row g-4">
                 <div class="col-xl-6">
                     <article class="card table-card h-100">
-                        <div class="card-header">Nase storitve</div>
+                        <h3 class="card-header h5 mb-0">Nase storitve</h3>
                         <div class="table-responsive">
                             <table class="table table-hover mb-0 align-middle">
                                 <thead>
@@ -82,15 +83,15 @@ $currentPage = 'index';
                                 </thead>
                                 <tbody>
                                 <tr><td>Spletni razvoj</td><td>Poslovna stran</td><td>14 dni</td><td>1200 EUR</td><td>Na voljo</td></tr>
-                                <tr><td>SEO analiza</td><td>Tehnicni pregled</td><td>5 dni</td><td>350 EUR</td><td>Na voljo</td></tr>
+                                <tr><td>SEO analiza</td><td>Tehnični pregled</td><td>5 dni</td><td>350 EUR</td><td>Na voljo</td></tr>
                                 <tr><td>Landing stran</td><td>Produktna kampanja</td><td>7 dni</td><td>450 EUR</td><td>Na voljo</td></tr>
-                                <tr><td>Vzdrzevanje</td><td>Mesecna podpora</td><td>30 dni</td><td>200 EUR</td><td>Na voljo</td></tr>
-                                <tr><td>UI prenova</td><td>Osvezitev dizajna</td><td>10 dni</td><td>700 EUR</td><td>Omejeno</td></tr>
+                                <tr><td>Vzdrževanje</td><td>Mesečna podpora</td><td>30 dni</td><td>200 EUR</td><td>Na voljo</td></tr>
+                                <tr><td>UI prenova</td><td>Osvežitev dizajna</td><td>10 dni</td><td>700 EUR</td><td>Omejeno</td></tr>
                                 <tr><td>Blog sistem</td><td>Objave in kategorije</td><td>12 dni</td><td>900 EUR</td><td>Na voljo</td></tr>
                                 <tr><td>Integracija API</td><td>Povezava sistemov</td><td>8 dni</td><td>650 EUR</td><td>Na voljo</td></tr>
                                 <tr><td>Analitika</td><td>Merjenje obiskov</td><td>3 dni</td><td>180 EUR</td><td>Na voljo</td></tr>
                                 <tr><td>Testiranje</td><td>Funkcionalni test</td><td>4 dni</td><td>220 EUR</td><td>Na voljo</td></tr>
-                                <tr class="last-row"><td class="last-row-left">Posvet</td><td>Tehnicni nacrt</td><td>1 dan</td><td>90 EUR</td><td class="last-row-right">Na voljo</td></tr>
+                                <tr class="last-row"><td class="last-row-left">Posvet</td><td>Tehnični načrt</td><td>1 dan</td><td>90 EUR</td><td class="last-row-right">Na voljo</td></tr>
                                 </tbody>
                             </table>
                         </div>
@@ -99,7 +100,7 @@ $currentPage = 'index';
 
                 <div class="col-xl-6">
                     <article class="card table-card h-100">
-                        <div class="card-header">Delovni cas in razpored</div>
+                        <h3 class="card-header h5 mb-0">Delovni cas in razpored</h3>
                         <div class="table-responsive">
                             <table class="table table-striped mb-0 align-middle">
                                 <thead>
@@ -115,8 +116,8 @@ $currentPage = 'index';
                                 <tr><td>Ponedeljek</td><td>08:00</td><td>17:00</td><td>Frontend</td><td>Redni termin</td></tr>
                                 <tr><td>Torek</td><td>08:00</td><td>17:00</td><td>Backend</td><td>Redni termin</td></tr>
                                 <tr><td>Sreda</td><td>08:00</td><td>17:00</td><td>Full-stack</td><td>Redni termin</td></tr>
-                                <tr><td>Cetrtek</td><td>08:00</td><td>17:00</td><td>Frontend</td><td>Sestanki</td></tr>
-                                <tr><td>Petek</td><td>08:00</td><td>15:00</td><td>Support</td><td>Krajsi urnik</td></tr>
+                                <tr><td>Četrtek</td><td>08:00</td><td>17:00</td><td>Frontend</td><td>Sestanki</td></tr>
+                                <tr><td>Petek</td><td>08:00</td><td>15:00</td><td>Support</td><td>Krajši urnik</td></tr>
                                 <tr><td>Sobota</td><td>09:00</td><td>13:00</td><td>Support</td><td>Po dogovoru</td></tr>
                                 <tr><td>Nedelja</td><td>-</td><td>-</td><td>-</td><td>Zaprto</td></tr>
                                 <tr><td>Prazniki</td><td>-</td><td>-</td><td>-</td><td>Zaprto</td></tr>

@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($values['full_name'] === '') {
         $errors[] = 'Polje ime in priimek je obvezno.';
     } elseif (!preg_match('/^[A-Za-z ]+$/', $values['full_name'])) {
-        $errors[] = 'Ime in priimek lahko vsebujeta samo crke od a do z in presledke.';
+        $errors[] = 'Ime in priimek lahko vsebujeta samo črke od a do z in presledke.';
     }
 
     if ($values['email'] === '') {
@@ -31,11 +31,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($values['phone'] === '') {
         $errors[] = 'Polje telefon je obvezno.';
     } elseif (!preg_match('/^[0-9]+$/', $values['phone'])) {
-        $errors[] = 'Telefon lahko vsebuje samo stevilke.';
+        $errors[] = 'Telefon lahko vsebuje samo številke.';
     }
 
     if ($values['message'] === '') {
-        $errors[] = 'Polje sporocilo je obvezno.';
+        $errors[] = 'Polje sporočilo je obvezno.';
     }
 
     if (empty($errors)) {
@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <main class="site-main py-5">
     <section class="container contact-wrapper">
         <h1 class="text-center display-4 mb-3">Stopite v stik</h1>
-        <p class="text-center text-secondary mb-4">Imate vprasanje ali predlog? Z veseljem pomagamo.</p>
+        <p class="text-center text-secondary mb-4">Imate vprašanje ali predlog? Z veseljem pomagamo.</p>
 
         <?php if (!empty($errors)): ?>
             <div class="alert alert-danger" role="alert">
@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php endif; ?>
 
         <article class="card contact-card mb-4">
-            <div class="card-header">Kontaktni obrazec</div>
+            <h2 class="card-header h5 mb-0">Kontaktni obrazec</h2>
             <div class="card-body">
                 <form method="post" action="kontakt.php">
                     <div class="mb-3">
@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         >
                     </div>
                     <div class="mb-3">
-                        <label class="form-label fw-semibold" for="message">Sporocilo *</label>
+                        <label class="form-label fw-semibold" for="message">Sporočilo *</label>
                         <textarea
                             id="message"
                             name="message"
@@ -133,33 +133,36 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             placeholder="Vase sporocilo..."
                             required><?php echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8'); ?></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100 btn-lg">Poslji sporocilo</button>
+                    <button type="submit" class="btn btn-primary w-100 btn-lg">Pošlji sporočilo</button>
                     <p class="small text-muted mt-3 mb-0">* Vsa polja so obvezna.</p>
                 </form>
             </div>
         </article>
 
-        <section class="row g-3">
-            <div class="col-md-4">
-                <article class="contact-info-card h-100">
-                    <p class="icon-pill">@</p>
-                    <h2 class="h4">E-posta</h2>
-                    <p class="mb-0">info@mojastran.si</p>
-                </article>
-            </div>
-            <div class="col-md-4">
-                <article class="contact-info-card h-100">
-                    <p class="icon-pill">T</p>
-                    <h2 class="h4">Telefon</h2>
-                    <p class="mb-0">+386 1 234 5678</p>
-                </article>
-            </div>
-            <div class="col-md-4">
-                <article class="contact-info-card h-100">
-                    <p class="icon-pill">N</p>
-                    <h2 class="h4">Naslov</h2>
-                    <p class="mb-0">Ljubljana, Slovenija</p>
-                </article>
+        <section class="contact-info-section">
+            <h2 class="visually-hidden">Kontaktni podatki</h2>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <article class="contact-info-card h-100">
+                        <p class="icon-pill">@</p>
+                        <h3 class="h4">E-pošta</h3>
+                        <p class="mb-0">info@mojastran.si</p>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="contact-info-card h-100">
+                        <p class="icon-pill">T</p>
+                        <h3 class="h4">Telefon</h3>
+                        <p class="mb-0">+386 1 234 5678</p>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="contact-info-card h-100">
+                        <p class="icon-pill">N</p>
+                        <h3 class="h4">Naslov</h3>
+                        <p class="mb-0">Ljubljana, Slovenija</p>
+                    </article>
+                </div>
             </div>
         </section>
     </section>
