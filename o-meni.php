@@ -28,7 +28,7 @@ $currentPage = 'o-meni';
                     <p>V prihodnosti želim graditi projekte, ki bodo uporabnikom olajšali vsakodnevna opravila in izboljšali digitalno dostopnost.</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="https://images.pexels.com/photos/7988113/pexels-photo-7988113.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Programer dela za računalnikom, pogled od zadaj" class="profile-photo img-fluid">
+                    <img src="img/profil.jpg" alt="Programer dela za računalnikom, pogled od zadaj" class="profile-photo img-fluid">
                 </div>
             </div>
         </article>

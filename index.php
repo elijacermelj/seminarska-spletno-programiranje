@@ -22,12 +22,12 @@ $currentPage = 'index';
                     <p class="lead text-secondary mb-4">Sodobne digitalne rešitve za vase potrebe. Oglejte si kratko predstavitev storitev in delovnega procesa.</p>
                     <div class="d-flex flex-wrap gap-2 mb-4">
                         <a class="btn btn-primary btn-lg" href="kontakt.php">Stopite v stik</a>
-                        <a class="btn btn-outline-primary btn-lg" href="o-meni.php">Vec o meni</a>
+                        <a class="btn btn-outline-primary btn-lg" href="o-meni.php">Več o meni</a>
                     </div>
                     <div class="hero-badges d-flex flex-wrap gap-3">
                         <span class="badge-item">Hitro</span>
                         <span class="badge-item">Timsko</span>
-                        <span class="badge-item">Ucinkovito</span>
+                        <span class="badge-item">Učinkovito</span>
                         <span class="badge-item">Zanesljivo</span>
                     </div>
                 </div>
@@ -40,13 +40,13 @@ $currentPage = 'index';
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" class="d-block w-100 carousel-cover" alt="Sodobna delovna postaja za razvoj spletnih strani">
+                                <img src="img/carousel-1.jpg" class="d-block w-100 carousel-cover" alt="Sodobna delovna postaja za razvoj spletnih strani">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" class="d-block w-100 carousel-cover" alt="Programiranje na prenosniku v moderni pisarni">
+                                <img src="img/carousel-2.jpg" class="d-block w-100 carousel-cover" alt="Programiranje na prenosniku v moderni pisarni">
                             </div>
                             <div class="carousel-item">
-                                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" class="d-block w-100 carousel-cover" alt="Skupinski poslovni sestanek in nacrtovanje projekta">
+                                <img src="img/carousel-3.jpg" class="d-block w-100 carousel-cover" alt="Skupinski poslovni sestanek in nacrtovanje projekta">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#glavniCarousel" data-bs-slide="prev">
