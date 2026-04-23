@@ -83,8 +83,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <article class="card contact-card mb-4">
             <h2 class="card-header h5 mb-0">Kontaktni obrazec</h2>
             <div class="card-body">
-                <form method="post" action="kontakt.php">
-                    <div class="mb-3">
+                <form method="post" action="kontakt.php" class="row g-3">
+                    <div class="col-md-4">
                         <label class="form-label fw-semibold" for="full_name">Ime in priimek *</label>
                         <input
                             id="full_name"
@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             required
                         >
                     </div>
-                    <div class="mb-3">
+                    <div class="col-md-4">
                         <label class="form-label fw-semibold" for="email">E-mail naslov *</label>
                         <input
                             id="email"
@@ -109,7 +109,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             required
                         >
                     </div>
-                    <div class="mb-3">
+                    <div class="col-md-4">
                         <label class="form-label fw-semibold" for="phone">Telefon *</label>
                         <input
                             id="phone"
@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             required
                         >
                     </div>
-                    <div class="mb-3">
+                    <div class="col-12">
                         <label class="form-label fw-semibold" for="message">Sporočilo *</label>
                         <textarea
                             id="message"
@@ -133,8 +133,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             placeholder="Vase sporocilo..."
                             required><?php echo htmlspecialchars($values['message'], ENT_QUOTES, 'UTF-8'); ?></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100 btn-lg">Pošlji sporočilo</button>
-                    <p class="small text-muted mt-3 mb-0">* Vsa polja so obvezna.</p>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary w-100 btn-lg">Pošlji sporočilo</button>
+                        <p class="small text-muted mt-3 mb-0">* Vsa polja so obvezna.</p>
+                    </div>
                 </form>
             </div>
         </article>
